@@ -7,6 +7,11 @@ files:
    destination: /home/ec2-user/sample-app
  - source: /conf/sample_app.conf
    destination: /etc/httpd/conf.d
+permissions:
+  - object: /var/www/
+    owner: root
+    group: root
+    mode: 777
 hooks:
   AfterInstall:
    - location: scripts/install_dependencies
