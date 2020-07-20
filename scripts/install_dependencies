@@ -1,8 +1,4 @@
 #!/bin/bash
 yum install -y httpd mod_wsgi.x86_64
 easy_install pip
-pip install virtualenv
-cd /home/ec2-user/python-flask-service
-virtualenv environment
-source environment/bin/activate
-pip install -r requirements.txt
+pip install -r /home/ec2-user/sample-app/requirements.txt
