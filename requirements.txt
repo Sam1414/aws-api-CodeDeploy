@@ -1,5 +1,5 @@
 flask
-gunicorn
+# gunicorn
 tensorflow_hub
 pandas
 numpy
@@ -8,7 +8,7 @@ nltk
 newspaper
 googlenews
 tensorflow
-setuptools==49.2.0
+# setuptools==49.2.0
 # os
 # json
 # time
